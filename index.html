@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Encuesta lenguajes programación</title>
+</head>
+<body id="principal">
+	<div id="contenido">
+		<h1 id="title">Encuesta sobre lenguajes de programación</h1>
+		<p id="description">Queremos saber tu opinion sobre los lenguajes de programación más populares</p>
+		<fieldset id="datos-field">
+			<legend>Datos personales</legend>
+			<form id="survey-form" action="#" method="GET">			
+				<p>Nombre<br><label id="name-label">
+					<input type="text" id="name" placeholder="Nombre" required>
+				</label></p>
+				<p>Email<br><label id="email-label">
+					<input type="email" id="email" placeholder="Email" required> 
+				</label><p>
+				<p>Edad<br><label id="number-label">
+					<input type="number" id="number" placeholder="Edad" min="18" max="65">
+				</label></p>
+				<p>Ocupación actual<br><label id="dropdown-label">
+					<select id="dropdown">
+						<option disabled selected value>Selecciona una ocupación</option>
+						<option>Estudiante</option>
+						<option>Programador</option>
+						<option>Trabajador relacionado con la informática</option>
+						<option>Trabajador NO relacionado con la informática</option>
+					</select>
+				</label></p>
+			</fieldset>
+			<fieldset>
+				<legend>Encuesta</legend>
+				<p><b>Recomendarías estudiar programación?</b><label id="recomendacion-label">
+					<p><input type="radio" name="recomendacion" value="No">No, para nada</p>
+					<p><input type="radio" name="recomendacion" value="Indeciso">No estoy seguro</p>
+					<p><input type="radio" name="recomendacion" value="Si">Si, absolutamente</p>
+				</label></p>
+				<br>
+				<p><b>Selecciona cuales son para ti los mejores lenguajes de programación</b><br>
+					<label id="seleccion-label">
+					<p><input type="checkbox" name="selecciona" value="Python">Python</p>
+					<p><input type="checkbox" name="selecciona" value="C">C</p>
+					<p><input type="checkbox" name="selecciona" value="Java">Java</p>
+					<p><input type="checkbox" name="selecciona" value="C++">C++</p>
+					<p><input type="checkbox" name="selecciona" value="C#">C#</p>
+					<p><input type="checkbox" name="selecciona" value="Visual Basic">Visual Basic</p>
+					<p><input type="checkbox" name="selecciona" value="JavaScript">JavaScript</p>
+					<p><input type="checkbox" name="selecciona" value="Assembly language">Assembly language</p>
+					<p><input type="checkbox" name="selecciona" value="SQL">SQL</p>
+					<p><input type="checkbox" name="selecciona" value="PHP">PHP</p>
+				</label></p>
+				<br>
+				<p><b>Comentarios</b>
+					<br>
+					<label id="comentarios-label">
+					<textarea name="comentarios" id="comentarios"></textarea>
+				</label></p>
+			</fieldset>
+			<label id="submit-label">
+				<button type="submit" id="boton" value="Enviar"> Enviar </button>
+			</label>
+			</form>
+		</div>
+</body>
+</html>

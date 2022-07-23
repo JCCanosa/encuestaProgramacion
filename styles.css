@@ -1,0 +1,72 @@
+#principal{
+	background-image: url("https://pandorafms.com/blog/wp-content/uploads/2019/01/lenguajes-de-programacion-featured.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-color: #343434;
+}
+
+#contenido{
+	margin: 0 auto;
+	display: block;
+	width: fit-content;
+	font-family: Verdana;
+	color: white;
+}
+
+@media(max-width:600px){
+	#contenido{
+		width: 100%;
+	}
+}
+
+#title{
+	text-transform: uppercase;
+	text-align: center;
+}
+#description, legend{
+	text-align: center;
+	font-weight: bold;
+}
+
+fieldset{
+	border-width: 4px;
+	border-radius: 20px;
+	margin-top: 10px;
+	background-color: rgba(92, 102, 92, 0.7);
+}
+
+#name, #email, #number{
+	width: 250px;
+	height: 25px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#dropdown{
+	width: 300px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#comentarios{
+	border-radius: 5px;
+}
+
+#boton{
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #5C665C;
+	color: white;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+
+
